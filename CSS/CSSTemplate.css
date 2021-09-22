@@ -1,8 +1,11 @@
 /*The selectors in CSSTemplate is organized in alphabetical order for the ease of the reader. 
 This was done to increase the efficiency or reading with the large number of distinct selectors.
 CSSTemplate is used in index.html, contact.html, and schedule.html. */
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 @font-face {
-    font-family: "Open Sans";
+    font-family: "Times New Roman";
     font-weight: normal;
     font-style: normal;
     src: url("../fonts/Open-Sans/OpenSans-Regular.eot");
@@ -10,7 +13,7 @@ CSSTemplate is used in index.html, contact.html, and schedule.html. */
 }
 
 body {
-    font-family:  'Roboto', sans-serif;
+    font-family: 'Koh Santepheap', Arial;
     font-size: 90%;
     color: #666;
     background-color: #016a86;
@@ -83,7 +86,7 @@ fieldset {
 }
 
 h1.center-text {
-    font-family: 'Berkshire Swash', serif;
+    font-family: 'Koh Santepheap', serif;
     font-size: 550%;
 }
 
@@ -137,6 +140,7 @@ li {
     list-style-image: url("images/icon-plus.png");
     line-height: 1.6em;
 }
+}
 
 .menu-holder {
     float: right;
@@ -152,13 +156,12 @@ li {
     overflow: auto;
     max-width: 100%;
     z-index: 99;
-}
+}  
 
 #page {
     max-width: 940px;
     min-width: 720px;
     margin: 10px auto 10px auto;
-    
     border: 4px  #000;
     background-color: #f6f4e8;
     vertical-align: baseline;
