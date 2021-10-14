@@ -1,0 +1,380 @@
+/* HTML elements sorted alphabetically */
+
+body {
+    background-color: #FFF0C9;
+}
+
+.book {
+    background-color: #FFFDF7;
+    border: 2pt solid black;
+    border-radius: 5px;
+    margin: 1%
+}
+
+
+/* Small screens */
+@media only screen and (max-width: 640px) {    
+    .bookLink {
+        font-family: "Verdana", sans-serif;
+        text-decoration: underline;
+        color: black;
+        font-size: 100%;
+    }
+
+    #BookList {
+        background-color: lightgray;
+        border: 2pt solid black;
+        width: 95%;
+        float: left;
+        padding: 1%;
+        margin-bottom: 1%;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    #BookList h1 {
+        font-family: "Verdana", sans-serif;
+        font-size: 233.333333333%; 
+        border: 2pt solid black;
+        border-radius: 5px;
+        Background-color:white;
+        text-align: center;
+    }
+
+    #BookList h3{
+        font-family: "Verdana", sans-serif;
+        font-size: 166.66666666%;
+    }
+
+    #BookList p{
+        font-family: "Georgia", serif;
+        padding: 1%;
+    }
+
+    #Contact {
+        background-color: lightgray;
+        border: 2pt solid black;
+        width: 95%;
+        float: right;
+        padding: 1%;
+        margin-top: 1%;
+        border-radius: 10px;
+        text-align: center;
+        font-family: "Georgia", serif;
+    }
+    
+    #Contact h1 {
+        font-family: "Verdana", sans-serif;
+        font-size: 233.33333333333%; 
+        border: 2pt solid black;
+        border-radius: 5px;
+        Background-color:white;
+        text-align: center;
+    }
+
+    .contactInfo {
+        background-color: #FFFDF7;
+        border: 2pt solid black;
+        border-radius: 5px;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin: 2%
+    }
+    
+    .Cover {
+        max-width: 70%;
+        max-height: 70%;
+    }
+
+    #header {
+        font-family: "Verdana", sans-serif;
+        display: block;
+        margin: 1%;
+        margin-left: 2.5%;
+        color: black;
+        background-color: lightgray;
+        border: 2pt solid black;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 133.3333333333%;
+    }
+
+    #QuoteList {
+        background-color: lightgray;
+        border: 2pt solid black;
+        width: 95%;
+        float: right;
+        padding: 1%;
+        margin: 0%;
+        border-radius: 10px;
+        text-align: center;
+        font-family: "Georgia", serif;
+    }
+
+    #QuoteList h1 {
+        font-family: "Verdana", sans-serif;
+        font-size: 233.3333333%; 
+        border: 2pt solid black;
+        border-radius: 5px;
+        Background-color:white;
+        text-align: center;
+    }
+
+    .quote {
+        background-color: #FFFDF7;
+        border: 2pt solid black;
+        border-radius: 5px;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin: 2%
+    }
+
+    #total{
+		margin: 2% auto;
+		width: 95%;
+	}
+}
+
+
+/* Medium screens */
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+    .bookLink {
+        font-family: "Verdana", sans-serif;
+        text-decoration: underline;
+        color: black;
+        font-size: 125%;
+    }
+
+    #BookList {
+        background-color: lightgray;
+        border: 2pt solid black;
+        width: 95%;
+        float:left;
+        padding: 1%;
+        margin-bottom: 1%;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    #BookList h1 {
+        font-family: "Verdana", sans-serif;
+        font-size: 291.6666666666%; 
+        border: 2pt solid black;
+        border-radius: 5px;
+        Background-color:white;
+        text-align: center;
+    }
+
+    #BookList h3{
+        font-family: "Verdana", sans-serif;
+        font-size: 208%;
+    }
+
+    #BookList p{
+        font-family: "Georgia", serif;
+        padding: 1%;
+    }
+
+    #Contact {
+        background-color: lightgray;
+        border: 2pt solid black;
+        width: 95%;
+        float: right;
+        padding: 1%;
+        margin-top: 1%;
+        border-radius: 10px;
+        text-align: center;
+        font-family: "Georgia", serif;
+    }
+    
+    #Contact h1 {
+        font-family: "Verdana", sans-serif;
+        font-size: 291.666666666%; 
+        border: 2pt solid black;
+        border-radius: 5px;
+        Background-color:white;
+        text-align: center;
+    }
+
+    .contactInfo {
+        background-color: #FFFDF7;
+        border: 2pt solid black;
+        border-radius: 5px;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin: 2%
+    }
+
+    #header {
+        font-family: "Verdana", sans-serif;
+        display: block;
+        margin: 1%;
+        margin-left: 2.25%;
+        color: black;
+        background-color: lightgray;
+        border: 2pt solid black;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 166.6666666%;
+    }
+
+    #QuoteList {
+        background-color: lightgray;
+        border: 2pt solid black;
+        width: 95%;
+        float: right;
+        padding: 1%;
+        margin: 0%;
+        border-radius: 10px;
+        text-align: center;
+        font-family: "Georgia", serif;
+    }
+
+    #QuoteList h1 {
+        font-family: "Verdana", sans-serif;
+        font-size: 291.66666666%; 
+        border: 2pt solid black;
+        border-radius: 5px;
+        Background-color:white;
+        text-align: center;
+    }
+
+    .quote {
+        background-color: #FFFDF7;
+        border: 2pt solid black;
+        border-radius: 5px;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin: 2%
+    }
+
+    #total{
+		margin: 2% auto;
+		width: 95%;
+	}
+}
+
+
+/* Large screens */
+@media only screen and (min-width: 1025px) {
+    .bookLink {
+        font-family: "Verdana", sans-serif;
+        text-decoration: underline;
+        color: black;
+        font-size: 150%
+    }
+
+    #BookList {
+        background-color: lightgray;
+        border: 2pt solid black;
+        width: 55%;
+        float:left;
+        padding: 1%;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    #BookList h1 {
+        font-family: "Verdana", sans-serif;
+        font-size: 350%; 
+        border: 2pt solid black;
+        border-radius: 5px;
+        Background-color:white;
+        text-align: center;
+    }
+
+    #BookList h3{
+        font-family: "Verdana", sans-serif;
+        font-size: 250%;
+    }
+
+    #BookList p{
+        font-family: "Georgia", serif;
+        padding: 1%;
+    }
+
+    #Contact {
+        background-color: lightgray;
+        border: 2pt solid black;
+        width: 35%;
+        float: left;
+        padding: 1%;
+        margin-top: 1%;
+        border-radius: 10px;
+        text-align: center;
+        font-family: "Georgia", serif;
+    }
+    
+    #Contact h1 {
+        font-family: "Verdana", sans-serif;
+        font-size: 350%; 
+        border: 2pt solid black;
+        border-radius: 5px;
+        Background-color:white;
+        text-align: center;
+    }
+
+    .contactInfo {
+        background-color: #FFFDF7;
+        border: 2pt solid black;
+        border-radius: 5px;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin: 2%
+    }
+
+    #header {
+        font-family: "Verdana", sans-serif;
+        display: block;
+        margin: 1%;
+        margin-left: 2%;
+        color: black;
+        background-color: lightgray;
+        border: 2pt solid black;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 200%;
+    }
+
+    #QuoteList {
+        background-color: lightgray;
+        border: 2pt solid black;
+        width: 35%;
+        float: left;
+        padding: 1%;
+        margin: 0%;
+        border-radius: 10px;
+        text-align: center;
+        font-family: "Georgia", serif;
+    }
+
+    #QuoteList h1 {
+        font-family: "Verdana", sans-serif;
+        font-size: 350%; 
+        border: 2pt solid black;
+        border-radius: 5px;
+        Background-color:white;
+        text-align: center;
+    }
+
+    .quote {
+        background-color: #FFFDF7;
+        border: 2pt solid black;
+        border-radius: 5px;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin: 2%
+    }
+
+    #total{
+		margin: 2% auto;
+		width: 95%;
+	}
+
+}
